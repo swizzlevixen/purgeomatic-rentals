@@ -1,9 +1,23 @@
-# purgeomatic - Seek out and delete content nobody is watching. 
+# rentomatic - Seek out and delete content, based on streaming rental rules. 
 ## 💣 This software will delete your data! 💣
 
 ![Python](https://img.shields.io/badge/python-3.10%20|%203.11-blue) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Introduction
+
+> **This is a WIP, with no changes on `main` from purgeomatic yet.** Based on [purgeomatic](https://github.com/ASK-ME-ABOUT-LOOM/purgeomatic) by ASK-ME-ABOUT-LOOM, since that project contained 80% of the code I need for matching and managing media.
+>
+> Goal: Treat additions to certain Plex libraries as if they were streaming rentals, e.g., the rules for renting a movie from Apple TV:
+> > You have 30 days to start watching your rental before it's deleted from your Library. After you start watching, your rental is available for 48 hours.
+>
+> Bonus goals:
+> - Add media that is within x days of leaving, to a "Leaving Soon" collection in Plex
+> - Modify the Plex cover art for the leaving soon media, to add a banner to the image, indicating its status
+> - Modify the Plex cover art similarly for new media, for the first x days
+
+-----
+
+> **NOTE:** The below readme is still from the original purgeomatic repo, and will be updated as this project progresses
 
 ### Features
 
