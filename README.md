@@ -7,10 +7,10 @@
 
 > **This is a WIP, with no changes on `main` from purgeomatic yet.** Based on [purgeomatic](https://github.com/ASK-ME-ABOUT-LOOM/purgeomatic) by ASK-ME-ABOUT-LOOM, since that project contained 80% of the code I need for matching and managing media.
 >
-> Goal: Treat additions to certain Plex libraries as if they were streaming rentals, e.g., the rules for renting a movie from Apple TV:
+> **Goal:** Treat additions to certain Plex libraries as if they were streaming rentals, e.g., the rules for renting a movie from Apple TV:
 > > You have 30 days to start watching your rental before it's deleted from your Library. After you start watching, your rental is available for 48 hours.
 >
-> Bonus goals:
+> **Bonus goals:**
 > - Add media that is within x days of leaving, to a "Leaving Soon" collection in Plex
 > - Modify the Plex cover art for the leaving soon media, to add a banner to the image, indicating its status
 > - Modify the Plex cover art similarly for new media, for the first x days
